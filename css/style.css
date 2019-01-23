@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+body{
+  font-family: 'Bahiana', cursive;
+  background-color: #D7CEC7;
+}
+h1{
+  font-size:86px;
+  text-align:center;
+  color: #76323F;
+  margin: 0 auto;
+  position:absolute;
+  left: 40%;
+  }
+#board{ 
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  width: 550px;  
+  height: 550px; 
+  margin: 0 auto;
+  background: #565656; 
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  border-radius: 50%;  
+  text-align:center;
+}
+#outline{
+  width: 175px; 
+  height:175px; 
+  margin:auto;
+  padding:7%;
+  position:absolute;
+  text-align:center;
+  top:140px;
+  left:140px;
+  border:10px solid #565656;
+  background: #C09f80; 
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  border-radius: 50%;  
+}
+
+.press{
+  width: 200px; 
+  height:200px; 
+  margin:auto;
+  padding:1%; 
+  border-top-right-radius:200px;
+  border-bottom-right-radius: 0px; 
+  position:absolute;
+  }
+
+#blue{ 
+  transform: rotate(-90deg);
+  background-color: midnightblue;
+  top:60px;
+  left:60px;
+  
+  }
+#red{ 
+  transform: rotate(-180deg);
+  background-color: darkred;
+  bottom:60px;
+  left:60px;
+  }
+#yellow{ 
+  background-color: goldenrod;
+  top:60px;
+  right:60px;
+  }
+#green{ 
+  transform: rotate(90deg);
+  background-color: forestgreen;
+  bottom:60px;
+  right:60px;
+  }
+
+#title{
+  font-size:48px;
+}
+
+#countNum{
+  color: #76323F;
+  width:100px;
+  background: white;
+  margin:2% auto;
+  border: 1.5px solid;
+  border-radius:12px;
+}
+
+#reset{
+  color: #76323F;
+  background-color:paleturquoise;
+  border: 1.5px solid #76323F;
+  padding-left:2%;
+  padding-right:2%;
+  margin-bottom:4px;
+  border-radius:12px;
+}
+#start{
+  color: #76323F;
+  background-color:lawngreen;
+  border: 1.5px solid #76323F;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:4px;
+  border-radius:12px;
+}
+#strict{
+  color: #76323F;
+  position: relative;
+  bottom:-10px;
+  text-align:center;
+  padding:2%;
+  background:#222222; 
+  border: 1.5px solid #76323F;
+  border-radius:8px;
+}
+#counter{
+  text-align:center;
+}
